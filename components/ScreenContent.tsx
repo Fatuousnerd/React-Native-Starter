@@ -11,14 +11,14 @@ export const ScreenContent = () => {
   return (
     <View className="flex-1 flex-col gap-[50px] p-[25px] items-center justify-center bg-[#0B1215]">
       <Text className="text-[4rem] font-bold text-[#f0ffff] text-left leading-[4.5rem]">
-        React Native & NativeWind Starter
+        React {'\n'}Native & {'\n'}NativeWind Starter
       </Text>
-      <View className="w-full flex-row justify-between gap-[25px]">
+      <View className="w-full flex-row items-center gap-3">
         <TouchableOpacity onPress={OpenRepo} className="flex-1">
-          <Text className="text-[#029bce] text-[1.5rem] text-center font-bold p-[10px] bg-[#f0ffff] rounded-lg">Github Repo</Text>
+          <Text className="text-[#029bce] text-[1.5rem] text-center font-bold p-[10px] bg-[#f0ffff] rounded-lg">GitHub Repo</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={OpenGit} className="flex-1">
-          <Text className="text-[#ffffff] text-[1.5rem] text-center font-bold p-[10px] bg-[#029bce] rounded-lg">Github Profile</Text>
+          <Text className="text-[#ffffff] text-[1.5rem] text-center font-bold p-[10px] bg-[#029bce] rounded-lg">GitHub Profile</Text>
         </TouchableOpacity>
       </View>
     </View>
