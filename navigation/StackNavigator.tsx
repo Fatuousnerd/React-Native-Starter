@@ -4,9 +4,9 @@ import { ScreenContent } from 'components/ScreenContent';
 const Stack = createNativeStackNavigator();
 
 export default function StackNavigator() {
-    return (
-        <Stack.Navigator initialRouteName='Home' screenOptions={{ headerShown: false }}>
-            <Stack.Screen name='Home' component={ScreenContent} />
-        </Stack.Navigator>
-    )
-};
+  return (
+    <Stack.Navigator initialRouteName="Home" screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="Home" component={ScreenContent} />
+    </Stack.Navigator>
+  );
+}
